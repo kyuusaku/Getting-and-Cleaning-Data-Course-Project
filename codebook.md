@@ -47,7 +47,7 @@ See the above website for further details on sensor signal pre-processing if you
 
 <img src="https://coursera-forum-screenshots.s3.amazonaws.com/ab/a2776024af11e4a69d5576f8bc8459/Slide2.png"/>
 
-This picture comes from <b>Course Discussion Forums</b>. It illustrates the relationship between <b>original data</b> and <b>tidy data</b>. And in this project, `subject.id` and `activity` are moved to the first and second colums. 
+This picture comes from <b>Course Discussion Forums</b>. It illustrates the relationship between the <b>original data</b> and the <b>tidy data</b>. And in this project, `subject.id` and `activity` are moved to the first and second colums. 
 
 ### <a style='color:green'>Complete list of variables by column number</a>
 
