@@ -92,8 +92,8 @@ run_analysis <- function() {
         names(resDcasted)[3:ncol(resDcasted)] <- unlist(new.names)
         message("Modified variable names to reflect that these are now averaged values.")
         
-        # finally...
-        # save the small tidy dataset for evaluation
+        ## finally...
+        ## save the small tidy dataset for evaluation
         write.table(resDcasted, file="tidy_data.txt")
         message("Saved result.")
 }
