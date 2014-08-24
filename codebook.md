@@ -39,7 +39,7 @@ See the above website for further details on sensor signal pre-processing if you
 
 - `train/y_train.txt`, `test/y_test.txt`: Each row identifies the class label of an activity. Its range is from 1 to 6.
 
-- `features.txt`: List of all features. And the tiny data includes only the measurements on the `mean` and `standard deviation` for each measurement
+- `features.txt`: List of all features. And the tidy data includes only the measurements on the `mean` and `standard deviation` for each measurement
 
 - `train/X_train.txt`, `test/X_test.txt`: Training and test set. Each row is a 561-feature vector with time and frequency domain variables.
 
