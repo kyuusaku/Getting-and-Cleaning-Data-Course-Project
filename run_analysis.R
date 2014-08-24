@@ -80,6 +80,7 @@ run_analysis <- function() {
         message("Modified colnames.")
         
         ## melting and dcasting for getting databy activities and subjects
+        library(reshape2)
         library(data.table)
         resdt <- data.table(X.mean.std)
         resMelted  <- melt(resdt, id=c("subject.id", "activity"))
